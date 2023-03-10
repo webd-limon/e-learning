@@ -13,6 +13,11 @@ img{
     display: block;
 }
 
+
+/* -=-=-=--=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=
+                Header Section
+=-=--=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-= */
+
 header{
     background-color: #000;
     padding: 7px 0;
@@ -63,7 +68,11 @@ header{
     color: #ff0000;
     transition: .4s;
 }
-/* Navigation Bar */
+
+
+/* -=-=-=--=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=
+                Navigation Bar
+=-=--=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-= */
 
 .header_items{
     display: flex;
@@ -72,7 +81,10 @@ header{
     padding: 0 10px;
 }
 
-/* logo */
+/* -=-=-=--=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=
+                Logo 
+=-=--=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-= */
+
 .logo{
     width: 15%;
     height: 150px;
@@ -84,7 +96,10 @@ header{
     cursor: pointer;
 }
 
-/* search bar */
+/* -=-=-=--=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=
+                Search Bar
+=-=--=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-= */
+
 .search{
     width: 75%;
     position: relative;
@@ -121,7 +136,12 @@ header{
     color: #000;
     z-index: 3;
 }
-/* Nav Menu */
+
+
+/* -=-=-=--=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=
+                Nav Bar
+=-=--=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-= */
+
 .nav_menu{
     width: 10%;
 }
@@ -214,7 +234,11 @@ header{
     width: 100%;
     padding-right: 10px;
 }
-/* Slider Section */
+
+
+/* -=-=-=--=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=
+                Slider Section
+=-=--=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-= */
 
 .slider_section{
     width: 100%;
