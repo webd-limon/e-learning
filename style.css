@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+a:visited{
+    color: blue;
+}
 img{
     max-width: 100%;
     display: block;
@@ -23,14 +26,14 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.mobile_app a{
+.call_us a{
     width: 20%;
     text-decoration: none;
     color: #fff;
     padding: 5px;
     font-size: 15px;
 }
-.mobile_app a:hover{
+.call_us a:hover{
     color: #ff0000;
     transition: .4s;
 }
@@ -124,6 +127,7 @@ header{
 .side_menu{
     width: 20%;
 }
+
 .side_menu ul li{
     background-color: #000;
     list-style: none;
