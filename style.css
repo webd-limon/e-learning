@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600;1,700;1,800&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+
+header{
+    background-color: #000;
+    padding: 7px 0;
+    margin-bottom: 10px;
+}
+.container{
+    padding: 0 2%;
+}
+.top_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mobile_app a{
+    width: 20%;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    font-size: 15px;
+}
+.mobile_app a:hover{
+    color: #ff0000;
+    transition: .4s;
+}
+.social_link{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social_link ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social_link ul li{
+    list-style: none;
+    margin: 0 0 0 20px;
+    font-size: 15px;
+}
+.social_link ul li a{
+    display: block;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+.social_link ul li a:hover{
+    color: #ff0000;
+    transition: .4s;
+}
+/* Navigation Bar */
+
+.header_items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+/* logo */
+.logo{
+    width: 15%;
+    height: 150px;
+}
+.logo a{
+    cursor: pointer;
+}
+
+/* search bar */
+.search{
+    width: 75%;
+    margin: auto;
+    background-color: #000;
+}
+
+/* Nav Menu */
+.nav_menu{
+    width: 10%;
+}
+.nav_menu ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav_menu ul li{
+    list-style: none;
+    margin: 0 0 0 25px;
+}
+.nav_menu ul li a{
+    cursor: pointer;
+    font-size: 25px;
+    color: #000;
+}
+.nav_menu ul li a:hover{
+    color: #ff0000;
+    transition: .4s;
+}
+
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+            Side Menu Bar
+=-=-=--=-=-=--=-=-=-=-=-=-=-=-=-=-=-= */
+
+.side_menubar{
+    margin-top: 15px;
+}
+.side_menubar_items{
+    display: flex;
+    justify-content: space-between;
+}
+.side_menu{
+    width: 20%;
+}
+.side_menu ul li{
+    background-color: #000;
+    list-style: none;
+    padding: 10px 0 10px 10px;
+    border: 1px solid #fff;
+    transition: .8s;
+    position: relative;
+}
+.side_menu ul li:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
+.side_menu ul li:hover>a{
+    color: #000;
+}
+.side_menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight:500;
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+}
+.side_menu ul li ul{
+    position: absolute;
+    left: 100%;
+    top: 0;
+    z-index: 2;
+    display: none;
+}
+.side_menu ul li:hover ul{
+    display: block;
+}
+.side_menu ul li ul li{
+    white-space: nowrap;
+    width: 100%;
+    padding-right: 10px;
+}
+.side_menu ul ul ul{
+    position: absolute;
+    left: 100%;
+    top: 0;
+    z-index: 2;
+    display: none;
+}
+.side_menu ul li ul li:hover ul{
+    display: block;
+}
+.side_menu ul li ul li{
+    white-space: nowrap;
+    width: 100%;
+    padding-right: 10px;
+}
+/* Slider Section */
+
+.slider_section{
+    width: 100%;
+    height: 804px;
+    margin-left: 3px;
+    position: relative;
+}
+#slider{
+    overflow: hidden;
+}
+figure{
+    width: 500%;
+    position: relative;
+    left: 0;
+    animation: carousel 20s infinite;
+}
+#slider figure img{
+    float: left;
+    width: 20%;
+    display: block;
+}
+@keyframes carousel{
+    0%{
+        /* 0sec no movement or 1st slide */
+        left: 0; 
+    }
+    20%{
+        /* 4th sec no movement */
+        left:0;
+    }
+    25%{
+        /* 5th sec 2nd slide */
+        left:-100%;
+    }
+    45%{
+        /* 9th sec no movement */
+        left:-100%;
+    }
+    50%{
+        /* 10th sec 3rd slide */
+        left:-200%;
+    }
+    70%{
+        /* 14th sec no movement */
+        left:-200%;
+    }
+    75%{
+        /* 15th sec 4th slide */
+        left:-300%;
+    }
+    95%{
+        /* 19th sec no movement */
+        left:-300%;
+    }
+    100%{
+        /* 20th sec 5th slide */
+        left:-400%;
+    }
+}
+
+
