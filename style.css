@@ -127,7 +127,12 @@ header{
 .side_menu{
     width: 20%;
 }
-
+.side_menu ul li:nth-child(1){
+    border-top: 1px solid #000;
+}
+.side_menu ul li:nth-child(10){
+    border-bottom: 1px solid #000;
+}
 .side_menu ul li{
     background-color: #000;
     list-style: none;
