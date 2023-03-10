@@ -137,6 +137,7 @@ header{
 }
 .nav_menu ul li a:hover{
     transition: .4s;
+    color: #ff0000;
 }
 
 
@@ -155,12 +156,7 @@ header{
 .side_menu{
     width: 20%;
 }
-.side_menu ul li:nth-child(1){
-    border-top: 1px solid #000;
-}
-.side_menu ul li:nth-child(10){
-    border-bottom: 1px solid #000;
-}
+
 .side_menu ul li{
     background-color: #000;
     list-style: none;
@@ -174,7 +170,7 @@ header{
     cursor: pointer;
 }
 .side_menu ul li:hover>a{
-    color: #000;
+    color: #ff0000;
 }
 .side_menu ul li a{
     text-decoration: none;
