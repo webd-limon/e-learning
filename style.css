@@ -102,7 +102,7 @@ header{
 =-=--=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-= */
 
 .search{
-    width: 75%;
+    width: 15%;
     position: relative;
 }
 
@@ -165,13 +165,16 @@ header{
     color: #ff0000;
 }
 
-
+/* menu bar */
+.menubar{
+    width:60%;
+}
 
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
             Side Menu Bar
 =-=-=--=-=-=--=-=-=-=-=-=-=-=-=-=-=-= */
 
-.side_menubar{
+/* .side_menubar{
     margin-top: 15px;
 }
 .side_menubar_items{
@@ -234,7 +237,7 @@ header{
     white-space: nowrap;
     width: 100%;
     padding-right: 10px;
-}
+} */
 
 
 /* -=-=-=--=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=
