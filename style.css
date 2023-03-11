@@ -74,6 +74,9 @@ header{
 /* -=-=-=--=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=
                 Navigation Bar
 =-=--=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-= */
+nav{
+    margin: 1% 0;
+}
 
 .header_items{
     display: flex;
@@ -108,12 +111,12 @@ header{
 
 .menubar>ul{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 }
 .menubar ul li{
     list-style: none;
-    margin: 0 1%;
+    margin: 0 2%;
     padding: 1%;
     font-weight: 500;
     font-size: 20px;
@@ -162,32 +165,11 @@ header{
     width: 2%;
     position: relative;
 }
-
-.search_input{
-    width: 100%;
-}
-
-.search_input input{
-    width: 100%;
-    height: 50px;
-    padding: 10px;
-    border-radius: 5px;
-    outline: 0;
-    border-color: #000;
-}
 .search_icon{
-    position: absolute;
-    left: 100%;
-    top:0;
-    transform: translateX(-40px);
-    height: 50px;
     display: flex;
     align-items: center;
 }
-.search_input input[type=text]{
-    color: #000;
-    font-size: 18px;
-}
+
 .search_icon i{
     font-size: 20px;
     cursor: pointer;
