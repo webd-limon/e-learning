@@ -4,20 +4,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    user-select: none;
-}
-a:visited{
-    color: blue;
 }
 img{
     max-width: 100%;
     display: block;
 }
-
-
-/* -=-=-=--=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=
-                Header Section
-=-=--=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-= */
 
 header{
     background-color: #000;
@@ -32,14 +23,14 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.call_us a{
+.mobile_app a{
     width: 20%;
     text-decoration: none;
     color: #fff;
     padding: 5px;
     font-size: 15px;
 }
-.call_us a:hover{
+.mobile_app a:hover{
     color: #ff0000;
     transition: .4s;
 }
@@ -69,14 +60,7 @@ header{
     color: #ff0000;
     transition: .4s;
 }
-
-
-/* -=-=-=--=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=
-                Navigation Bar
-=-=--=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-= */
-nav{
-    margin: 1% 0;
-}
+/* Navigation Bar */
 
 .header_items{
     display: flex;
@@ -85,131 +69,119 @@ nav{
     padding: 0 10px;
 }
 
-/* -=-=-=--=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=
-                Logo 
-=-=--=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-= */
-
+/* logo */
 .logo{
-    width: 3%;
-    min-width: 80px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    width: 15%;
+    height: 150px;
 }
 .logo a{
     cursor: pointer;
 }
 
-
-/* -=-=-=--=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=
-                Menu Bar
-=-=--=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-= */
-
-.menubar{
-    width:80%;
-}
-
-.menubar>ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.menubar ul li{
-    list-style: none;
-    margin: 0 2%;
-    padding: 1%;
-    font-weight: 500;
-    font-size: 20px;
-    color: #000;
-    position: relative;
-    border-radius: 5px;
-}
-.menubar ul li a{
-    text-decoration: none;
-    color: #000;
-    display: block;
-}
-
-.menubar ul li ul{
-    background-color: #fff;
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1;
-    border-radius: 5px;
-}
-.menubar ul li ul li{
-    white-space: nowrap;
-    padding: 5px 10px;
-    position: relative;
-    color: #000;
-}
-.menubar ul li:hover>ul{
-    display: block;
-}
-.menubar ul li ul li>ul{
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 100%;
-}
-.menubar ul li ul li:hover ul{
-    display: block;
-}
-/* -=-=-=--=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=
-                Search Bar
-=-=--=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-= */
-
+/* search bar */
 .search{
-    width: 2%;
-    position: relative;
-}
-.search_icon{
-    display: flex;
-    align-items: center;
+    width: 75%;
+    margin: auto;
+    background-color: #000;
 }
 
-.search_icon i{
-    font-size: 20px;
-    cursor: pointer;
-    color: #000;
-    z-index: 3;
-}
-
-
-/* -=-=-=--=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=
-                Nav Bar
-=-=--=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-= */
-
-.ecom_menu{
+/* Nav Menu */
+.nav_menu{
     width: 10%;
 }
-.ecom_menu ul{
+.nav_menu ul{
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-.ecom_menu ul li{
+.nav_menu ul li{
     list-style: none;
     margin: 0 0 0 25px;
 }
-.ecom_menu ul li a{
+.nav_menu ul li a{
     cursor: pointer;
     font-size: 25px;
     color: #000;
 }
-.ecom_menu ul li a:hover{
-    transition: .4s;
+.nav_menu ul li a:hover{
     color: #ff0000;
+    transition: .4s;
 }
 
 
 
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+            Side Menu Bar
+=-=-=--=-=-=--=-=-=-=-=-=-=-=-=-=-=-= */
 
-/* -=-=-=--=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=
-                Slider Section
-=-=--=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-= */
+.side_menubar{
+    margin-top: 15px;
+}
+.side_menubar_items{
+    display: flex;
+    justify-content: space-between;
+}
+.side_menu{
+    width: 20%;
+}
+.side_menu ul li{
+    background-color: #000;
+    list-style: none;
+    padding: 10px 0 10px 10px;
+    transition: .8s;
+    position: relative;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.side_menu ul li:last-child{
+    margin-bottom: 0;
+}
+.side_menu ul li:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
+.side_menu ul li:hover>a{
+    color: #000;
+}
+.side_menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight:500;
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+}
+.side_menu ul li ul{
+    position: absolute;
+    left: 101%;
+    top: 0;
+    z-index: 2;
+    display: none;
+}
+.side_menu ul li:hover>ul{
+    display: block;
+}
+.side_menu ul li ul li{
+    white-space: nowrap;
+    width: 100%;
+    padding-right: 10px;
+}
+.side_menu ul ul ul{
+    position: absolute;
+    left: 101%;
+    top: 0;
+    z-index: 2;
+    display: none;
+}
+.side_menu ul li ul li:hover ul{
+    display: block;
+}
+.side_menu ul li ul li{
+    white-space: nowrap;
+    width: 100%;
+    padding-right: 10px;
+}
+/* Slider Section */
 
 .slider_section{
     width: 100%;
