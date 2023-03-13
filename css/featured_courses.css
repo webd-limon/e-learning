@@ -232,3 +232,56 @@ nav ul li ul li ul{
     font-size: 30px;
     text-decoration: underline;
 }
+
+.courses_widget{
+    display: flex;
+    justify-content: space-between;
+}
+.featured_courses{
+    width: 80%;
+}
+.featured_courses ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.featured_courses ul li{
+    width: 32%;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.featured_courses ul li img{
+    border-radius: 10px;
+    border: 0.3px solid rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+}
+.featured_courses ul li a{
+    text-decoration: none;
+}
+.featured_courses ul li h4{
+    color: #000;
+    font-size: 20px;
+    display: block;
+    font-family: bangla_ador;
+    position: relative;
+    overflow: hidden;
+}
+.featured_courses ul li h4 .add_cart{
+    background-color: #fff;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transition: 0.2s;
+}
+.featured_courses ul li a:hover .add_cart{
+    left: 0;
+    top:0;
+}
+
+/* Widgets */
+.widgets{
+    width: 20%;
+}
