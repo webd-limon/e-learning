@@ -253,7 +253,7 @@ nav ul li ul li ul{
     margin-bottom: 30px;
 }
 .featured_courses ul li img{
-    border-radius: 10px;
+    border-radius: 3px;
     border: 0.3px solid rgba(0,0,0,0.2);
     margin-bottom: 10px;
 }
@@ -272,8 +272,8 @@ nav ul li ul li ul{
     background-color: #fff;
     width: 100%;
     position: absolute;
-    top: 0;
-    left: 100%;
+    top: 100%;
+    left: 0;
     transition: 0.2s;
 }
 .featured_courses ul li a:hover .add_cart{
@@ -284,4 +284,53 @@ nav ul li ul li ul{
 /* Widgets */
 .widgets{
     width: 20%;
+    text-align: center;
+    padding: 0 1%;
+}
+aside h3{
+    font-size: 35px;
+    color: #000;
+}
+.newletter{
+    background-color: #938b8b;
+    padding:5%;
+    border-radius: 3px;
+}
+.newletter input{
+    width: 100%;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    margin-bottom: 7px;
+    color: #fff;
+}
+.widgets form input[type=text],
+.widgets form input[type=email]{
+    font-size: 15px;
+}
+.widgets form input[type=submit]{
+    background-color: #404344;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* filter_price */
+.filter_price{
+    margin: 30px 0;
+    text-align: left;
+}
+.filter_price h4{
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+.filter_price form input{
+    width: 100%;
+}
+.filter_price form input[type=submit]{
+    background-color: #404344;
+    border-radius: 3px;
+    border: 0;
+    padding: 10px 0;
+    font-size: 15px;
 }
