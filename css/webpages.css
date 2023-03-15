@@ -334,3 +334,47 @@ aside h3{
     padding: 10px 0;
     font-size: 15px;
 }
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+                Title Images
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.title_image{
+    width: 95%;
+    margin: 30px auto 15px;
+}
+.title_image img{
+    width: 100%;
+    display: block;
+    margin: auto;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+                Title Page Text
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.page_title_text{
+    width: 95%;
+    margin: auto;
+}
+.page_title_text p{
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+                Batch Title
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+.batch_title{
+    width: 50%;
+    margin: 30px auto 15px;
+    text-align: center;
+    background-color:#E1EFFF;
+    padding: 15px;
+    border:1px solid #000;
+    border-radius: 5px;
+}
+.batch_title h3{
+    font-family: bangla_ador;
+    font-size: 30px;
+}
